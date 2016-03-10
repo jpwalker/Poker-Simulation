@@ -11,9 +11,14 @@ ranks = {0:'Ace', 1:'2', 2:'3', 3:'4', 4:'5', 5:'6', 6:'7', 7:'8', 8:'9',
          9:'10', 10:'Jack', 11:'Queen', 12:'King'}
 class StdDeck(Deck):
     def __init__(self):
+        deck = []
         for s in suits:
             for r in ranks:
-                Card
+                card_data = Card_Data()
+                deck.append(Card(card_data, ))
 
+class Card_Data():
+    def __init__(self, suite, ):
+        
 if __name__ == '__main__':
     pass
