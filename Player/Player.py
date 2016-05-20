@@ -3,7 +3,6 @@ Created on Mar 14, 2016
 
 @author: jpwalker
 '''
-from numpy.oldnumeric.random_array import beta
 
 class MyClass(object):
     '''
